@@ -1,3 +1,4 @@
+```
 (function (){
     let pickAnswer = (element, data) => {
         Array.from(element.querySelectorAll(`input[value="${data.answer}"]`)).forEach(
@@ -23,3 +24,4 @@
     }
     QAinHTML[QAinHTML.length - 1].scrollIntoView();
 })()
+```
